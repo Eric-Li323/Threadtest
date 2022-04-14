@@ -9,7 +9,6 @@ package com.lyh;
  * @date 2022/4/14
  */
 public class TestThread1 extends Thread {
-
     @Override
     public void run() {
         //run方法线程体
