@@ -1,4 +1,4 @@
-package com.lyh;
+package com.lyh.demo01;
 
 /**
  * 多个线程同时操作同一个对象

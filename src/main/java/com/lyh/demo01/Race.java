@@ -1,4 +1,4 @@
-package com.lyh;
+package com.lyh.demo01;
 
 /**
  * 模拟龟兔赛跑

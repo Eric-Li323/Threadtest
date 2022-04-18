@@ -1,4 +1,4 @@
-package com.lyh;
+package com.lyh.demo01;
 
 /**
  * 创建线程方式2： 1.实现runnable接口，重写run方法

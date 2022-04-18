@@ -1,10 +1,9 @@
-package com.lyh;
+package com.lyh.demo01;
 
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -40,7 +39,6 @@ public class TestThread2 extends Thread{
         t2.start();
         t3.start();
     }
-
 
 }
 

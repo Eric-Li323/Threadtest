@@ -1,4 +1,4 @@
-package com.lyh;
+package com.lyh.demo01;
 
 /**
  * 创建线程方式一： 1.继承Thread类，并重写run方法
