@@ -4,3 +4,9 @@
 ![实现Callable接口](src\main\resources\md\Snipaste_2022-04-18_14-23-07.jpg)
 Lambda表达式：
 ![Lamda表达式](src\main\resources\md\Snipaste_2022-04-19_08-56-23.jpg)
+线程方法：
+![线程方法](src\main\resources\md\Snipaste_2022-04-20_09-19-33.jpg)
+1.停止线程
+![停止线程](src\main\resources\md\Snipaste_2022-04-20_09-23-10.jpg)
+2.线程休眠
+![线程休眠](src\main\resources\md\Snipaste_2022-04-20_10-19-57.jpg)
