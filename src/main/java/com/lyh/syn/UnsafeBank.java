@@ -44,27 +44,32 @@ class Drawing extends Thread{
     }
 
     //取钱
+    //synchronized 默认锁的是this
     @Override
     public void run(){
-        //判断有没有钱
-        if(account.money-drawingMoney < 0){
-            System.out.println(Thread.currentThread().getName()+"钱不够，取不了");
-            return;
+
+        //参数填写 需要进行增删改查的共享变量
+        synchronized(account){
+            //判断有没有钱
+            if(account.money-drawingMoney < 0){
+                System.out.println(Thread.currentThread().getName()+"钱不够，取不了");
+                return;
+            }
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            //卡内余额 = 余额 - 你取的钱
+            account.money = account.money -drawingMoney;
+            //你手里的钱
+            nowMoney = nowMoney + drawingMoney;
+
+            System.out.println(account.name+"余额："+account.money);
+            //Thread.currentThread().getName() = this.getName()    这里的this指代 Thread, Drawing类继承了Thread，而Thread类具有get方法获取线程名
+            System.out.println(this.getName()+"手里的钱："+nowMoney);
         }
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        //卡内余额 = 余额 - 你取的钱
-        account.money = account.money -drawingMoney;
-        //你手里的钱
-        nowMoney = nowMoney + drawingMoney;
-
-        System.out.println(account.name+"余额："+account.money);
-        //Thread.currentThread().getName() = this.getName()    这里的this指代 Thread, Drawing类继承了Thread，而Thread类具有get方法获取线程名
-        System.out.println(this.getName()+"手里的钱："+nowMoney);
     }
 }
