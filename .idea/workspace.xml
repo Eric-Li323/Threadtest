@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd9131ab-3031-4f48-8d43-fdad1baa6c2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/demo06/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/demo06/DeadLock.java" afterDir="false" />
-    </list>
+    <list default="true" id="cd9131ab-3031-4f48-8d43-fdad1baa6c2b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,7 @@
       <recent name="D:\Program Files\JetBrains\IDEA-Projects\threadtest\src\main\resources\md" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeadLock">
+  <component name="RunManager" selected="Application.TestPC">
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyh.demo06.DeadLock" />
       <module name="threadtest" />
@@ -99,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyh.syn.UnsafeBank" />
+    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyh.demo06.TestLock" />
       <module name="threadtest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyh.syn.*" />
+          <option name="PATTERN" value="com.lyh.demo06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeBuyTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyh.syn.UnsafeBuyTicket" />
+    <configuration name="TestPC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyh.demo06.TestPC" />
       <module name="threadtest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyh.syn.*" />
+          <option name="PATTERN" value="com.lyh.demo06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPC" />
+        <item itemvalue="Application.TestLock" />
         <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.TestJUC" />
         <item itemvalue="Application.UnsafeList" />
-        <item itemvalue="Application.UnsafeBank" />
-        <item itemvalue="Application.UnsafeBuyTicket" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +166,8 @@
       <workItem from="1650501510897" duration="1941000" />
       <workItem from="1651712150378" duration="17583000" />
       <workItem from="1651798481675" duration="14387000" />
-      <workItem from="1651884224687" duration="8551000" />
+      <workItem from="1651884224687" duration="12640000" />
+      <workItem from="1652059144296" duration="5080000" />
     </task>
     <servers />
   </component>
@@ -192,46 +191,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1649993336784" />
-    <state x="-605" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1651903431546">
+    <state x="-605" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1652062281846">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state x="-605" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1651903431546" />
+    <state x="-605" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652062281846" />
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650418475805" />
-    <state width="1397" height="155" key="GridCell.Tab.0.bottom" timestamp="1651903568599">
+    <state x="-944" y="296" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1651909940742">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="155" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1651903568599" />
+    <state x="-944" y="296" width="447" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1651909940742" />
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1652065704168">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="258" key="GridCell.Tab.0.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650436345076" />
-    <state width="1397" height="155" key="GridCell.Tab.0.center" timestamp="1651903568599">
+    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1652065704168">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="155" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1651903568599" />
+    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="258" key="GridCell.Tab.0.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650436345076" />
-    <state width="1397" height="155" key="GridCell.Tab.0.left" timestamp="1651903568599">
+    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1652065704167">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="155" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1651903568599" />
+    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704167" />
     <state width="1237" height="258" key="GridCell.Tab.0.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650436345076" />
-    <state width="1397" height="155" key="GridCell.Tab.0.right" timestamp="1651903568599">
+    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1652065704168">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="155" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1651903568599" />
+    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="258" key="GridCell.Tab.0.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650436345076" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1650272530050">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1397" height="275" key="GridCell.Tab.1.bottom" timestamp="1652065704168">
+      <screen x="-1440" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.bottom/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650272530050" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1650272530050">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1397" height="275" key="GridCell.Tab.1.center" timestamp="1652065704168">
+      <screen x="-1440" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.center/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650272530050" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1650272530050">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1397" height="275" key="GridCell.Tab.1.left" timestamp="1652065704168">
+      <screen x="-1440" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.left/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650272530050" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1650272530050">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1397" height="275" key="GridCell.Tab.1.right" timestamp="1652065704168">
+      <screen x="-1440" y="0" width="1440" height="860" />
     </state>
+    <state width="1397" height="275" key="GridCell.Tab.1.right/0.0.1280.680/-1440.0.1440.860@-1440.0.1440.860" timestamp="1652065704168" />
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/-1440.0.1440.860@0.0.1280.680" timestamp="1650272530050" />
   </component>
 </project>
